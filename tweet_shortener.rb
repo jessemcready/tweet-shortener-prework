@@ -22,7 +22,6 @@ def word_substituter(tweet)
       word = dict.fetch(word)
     end
   end
-  puts words
   words.join(" ")
 end
 
