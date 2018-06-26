@@ -20,6 +20,8 @@ def word_substituter(tweet)
   words.collect! do |word|
     if dict.key?(word)
       word = dict.fetch(word)
+    else
+      word = word
     end
   end
   words.join(" ")
