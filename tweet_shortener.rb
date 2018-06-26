@@ -21,8 +21,8 @@ def word_substituter(tweet)
     if dict.key?(word)
       word = dict.fetch(word)
     end
-    puts word
   end
+  puts words
   words.join(" ")
 end
 
