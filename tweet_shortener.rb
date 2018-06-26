@@ -16,7 +16,9 @@ end
 
 def word_substituter(tweet)
   words = tweet.split
-  
+  words.map do |word|
+    
+  end
 end
 
 def bulk_tweet_shortener(tweets)
