@@ -19,7 +19,7 @@ def word_substituter(tweet)
   words = tweet.split
   words.map do |word|
     if dict.key?(word)
-      word = dict[word]
+      word = dict.fetch(word)
     end
   end
   words.join(" ")
