@@ -10,6 +10,16 @@ def dictionary
     "be" => "b",
     "you" => "u",
     "at" => "@",
+    "and" => "&",
+    "Hello" => "Hi",
+    "To" => "2",
+    "Two" => "2",
+    "Too" => "2",
+    "For" => "4",
+    "Four" => "4",
+    "Be" => "B",
+    "You" => "U",
+    "at" => "@",
     "and" => "&"
   }  
 end
