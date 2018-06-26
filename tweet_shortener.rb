@@ -22,7 +22,7 @@ def word_substituter(tweet)
       word = dict[word]
     end
   end
-  words
+  words.join(" ")
 end
 
 def bulk_tweet_shortener(tweets)
