@@ -15,10 +15,14 @@ def dictionary
 end
 
 def word_substituter(tweet)
+  dict = dictionary
   words = tweet.split
   words.map do |word|
-    
+    if dict.key?(word)
+      word = dict[word]
+    end
   end
+  words
 end
 
 def bulk_tweet_shortener(tweets)
